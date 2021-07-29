@@ -1,26 +1,37 @@
-# Express Boilerplate!
+# FitLog API 
 
-This is a boilerplate project used for starting new projects!
+A Fitness App to log your workouts.
 
-## Set up
+This is the backend for `fitlog.vercel.app/`. A live version of the app can be found at https://fitlog.vercel.app/.
 
-Complete the following steps to start a new project (NEW-PROJECT-NAME):
+The frontend client of this repo can be found at https://github.com/douniad/fitlog-client.
 
-1. Clone this repository to your local machine `git clone BOILERPLATE-URL NEW-PROJECTS-NAME`
-2. `cd` into the cloned repository
-3. Make a fresh start of the git history for this project with `rm -rf .git && git init`
-4. Install the node dependencies `npm install`
-5. Move the example Environment file to `.env` that will be ignored by git and read by the express server `mv example.env .env`
-6. Edit the contents of the `package.json` to use NEW-PROJECT-NAME instead of `"name": "express-boilerplate",`
+## Summary
 
-## Scripts
+Everyone gets stressed dealing with everyday life and it's easy for mundane things to slip your mind. But when children are involved, that cannot happen. With babble, caregivers and parents are on the same page (quite literally). By sharing one account, everyone is able to stay on top of everything. Start by adding the child(ren) to the childboard and keep each other up to date by posting updates.
 
-Start the application `npm start`
+Happy logging, you're doing great!
 
-Start nodemon for the application `npm run dev`
+## Technology
 
-Run the tests `npm test`
+### Backend
 
-## Deploying
+#### Node and Express
 
-When your new project is ready for deployment, add a new Heroku application with `heroku create`. This will make a new git remote called "heroku" and you can then `npm run deploy` which will push to this remote's master branch.
+• Authentication via JWT
+• RESTful API
+#### Testing
+
+• Supertest
+• Mocha and Chai
+
+#### Database
+
+• Postgres
+• Knex.js - SQL Wrapper
+
+#### Production
+
+• Deployed via Heroku
+
+## Screenshots
