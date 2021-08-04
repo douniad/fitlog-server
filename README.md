@@ -35,3 +35,10 @@ Happy logging, you're doing great!
 • Deployed via Heroku
 
 ## Screenshots
+
+
+## API Endpoints
+
+api/auth
+api/users
+api/summaries
